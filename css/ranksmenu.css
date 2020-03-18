@@ -1,0 +1,101 @@
+.rangs-msg .msg_cont {
+    background: #008c58;
+}
+.logos{
+    width: 210px;
+    margin-top: 12px;
+    transition: .5s;
+}
+.logos img{
+        max-width: 100%;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: .3s;
+}
+.ranks-main-menu{
+
+}
+.ranks-main-menu ul{}
+.ranks-main-menu ul li{
+   display: inline-block;
+}
+.active{
+    border-bottom: 1.3px solid #fff;
+}
+.ranks-main-menu ul li a{
+    font-family: questrial,sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 30px 20px;
+    display: block;
+}
+.ranks-main-menu ul li:hover{
+    border-bottom: 1.3px solid #fff;
+    text-underline-position: none;
+}
+header.sticky{
+    background-color: rgb(24, 23, 23);
+    position: fixed;
+}
+.sticky.ranks-main-menu ul li a{
+    padding: 18px 20px;
+}
+.hamburger{
+    display: none;
+}
+.main-menu{
+    display: none;
+}
+.right-big-area{
+    position: relative;
+    width: 100%;
+    height: 36vh;
+    background-color: #333;
+}
+.right-big-bg{
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+}
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-menu{
+        display: block;
+    }
+    header{
+        display: none;
+    }
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .hamburger{
+        display: block;
+    }
+    .main-menu{
+        display: block;
+    }
+    header{
+        display: none;
+    }
+    .devide .bg-box {
+        height: 300px!important;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.hamburger,.main-menu{
+    display: block;
+}
+}

@@ -1,0 +1,150 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+  .wellpaper{
+      width: 100%;
+      height: 390px;
+  }
+  #frame {
+    height: 390px;
+    width: 100%;
+    background-image: url('../img/gianni-botsford-architects-light-and-dark-house-architonic-dsc3920-01.jpg');
+    background-size: 100% 118%;
+    position: absolute;
+    background-attachment: fixed;
+}
+ .main-video{
+     width: 600px;
+     height:350px ;
+     z-index: 9;
+     overflow: hidden;
+ }
+ #videopanel{
+    position: absolute;
+    margin: 4.6% 24%;
+    z-index: 10;
+ }
+ #control{
+     height: 40px;
+     width: 97%;
+     position:absolute;
+     top: 90%;
+     left: 50%;
+     transform: translate(-50% -50%);
+ }
+ #seek-bar{
+    width: 100%;
+    height: 10px;
+    background-color: gray;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+ }
+ .banner-area{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    height: 280px;
+    z-index: 9;
+    background-attachment: fixed;
+    background-size: 101% 59%;
+ }
+ .banner-area h1{
+   text-transform: uppercase;
+ }
+ .page-title{
+   margin-top: 7%;
+ }
+ .banner-image{
+    background-color: #11111146;
+ }
+ .project-content{
+     height: auto;
+     min-height: 600px;
+     width: 100%;
+     background-color: grey;
+     padding: 5%;
+ }
+ .welpaper-main{
+   height: 400px;
+   width: 700px;
+ 
+   position: relative;
+   left: 200;
+   top: 20;
+ }
+ .d1 {
+  height: 200px;
+  width: 150px;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  position: absolute;
+  top: 78px;
+  background-image: url(../img/tv2.jpg);
+  background-size: 918px 650px;
+  background-position: -2px -57px;
+  z-index: 1;
+}
+.d2 {
+  height: 262px;
+  width: 165px;
+  position: absolute;
+  top: 44px;
+  left: 147px;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  background-image: url(../img/tv2.jpg);
+  background-size: 918px 650px;
+  background-position: -146px -98px;
+  z-index: 2;
+}
+.d3 {
+  height: 400px;
+  width: 200px;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0px;
+  left: 310px;
+  background-image: url(../img/tv2.jpg);
+  background-size: 918px 650px;
+  background-position: -305px -54px;
+  z-index: 3;
+}
+.d4 {
+  height: 301px;
+  width: 150px;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  position: absolute;
+  top: 40px;
+  left: 500px;
+  background-image: url(../img/tv2.jpg);
+  background-size: 597px 647px;
+  background-position: 279px -92px;
+  z-index: 1;
+}
