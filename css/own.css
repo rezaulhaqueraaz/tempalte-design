@@ -78,24 +78,24 @@
  .banner-image{
     background-color: #11111146;
  }
- .project-content{
-     height: auto;
-     min-height: 600px;
-     width: 100%;
-     background-color: grey;
-     padding: 5%;
- }
+ .project-content {
+  height: auto;
+  min-height: 600px;
+  width: 100%;
+  background-color: grey;
+  padding: 3% 21%;
+}
  .welpaper-main{
    height: 400px;
    width: 700px;
- 
+
    position: relative;
    left: 200;
    top: 20;
  }
  .d1 {
-  height: 200px;
-  width: 150px;
+  height: 336px;
+  width: 210px;
   -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
@@ -107,11 +107,11 @@
   z-index: 1;
 }
 .d2 {
-  height: 262px;
-  width: 165px;
+  height: 393px;
+  width: 230px;
   position: absolute;
   top: 44px;
-  left: 147px;
+  left: 205px;
   -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
@@ -121,30 +121,91 @@
   z-index: 2;
 }
 .d3 {
-  height: 400px;
-  width: 200px;
+  height: 479px;
+  width: 250px;
   -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
   position: absolute;
   top: 0px;
-  left: 310px;
+  left: 433px;
   background-image: url(../img/tv2.jpg);
   background-size: 918px 650px;
   background-position: -305px -54px;
   z-index: 3;
 }
 .d4 {
-  height: 301px;
-  width: 150px;
+  height: 400px;
+  width: 230px;
   -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
   position: absolute;
   top: 40px;
-  left: 500px;
+  left: 680px;
   background-image: url(../img/tv2.jpg);
   background-size: 597px 647px;
   background-position: 279px -92px;
   z-index: 1;
+}
+.d5 {
+  height: 325px;
+  width: 210px;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  position: absolute;
+  top: 78px;
+  background-image: url(../img/tv2.jpg);
+  background-size: 632px 660px;
+  background-position: 211px -116px;
+  z-index: 0;
+  left: 908px;
+}
+.project-slider {
+  padding: 2%;
+  background-color: #808080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-title-area {
+  color: aliceblue;
+  width: 1000%;
+  padding-left: 2%;
+  height: 80px;
+  background-color: #242424a8;
+}
+.box{
+  padding: 2%;
+   width: 350px;
+   height: 500px;
+   background: linear-gradient(0deg, rgba(93,110,133,1) 2%, rgba(60,64,70,1) 85%);
+
+   border-radius:10px;
+   -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+   -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+   box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+   overflow: hidden;
+}
+.box img {
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  padding: 2%;
+}
+.box:hover{
+  background: linear-gradient(0deg, rgba(93,110,133,0.7147233893557423) 5%, rgba(60,64,70,1) 81%);
+ transform-style: preserve-3d;
+ transform: scale(1.03);
+  transition: all ease 0.6s;
+}
+.marvel {
+  text-align: center;
+  color: #d9d9df;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  margin-top: 6%;
 }

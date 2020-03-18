@@ -16,6 +16,7 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="css/ranksmenu.css">
+<link rel="stylesheet" href="css/lightslider.css">
 <link href="themes/cms/assets/css/style.css" rel="stylesheet" media="all">
 <link href="css/own.css" rel="stylesheet" media="all">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Questrial&amp;display=swap" rel="stylesheet" media="all">
@@ -63,13 +64,118 @@
   </section>
 </div>
   <section class="project-content">
-      <div class="welpaper-main">
-            <div class="d1"></div>
-            <div class="d2"></div>
-            <div class="d3"></div>
-            <div class="d4"></div>
+    <div class="welpaper-main">
+          <div class="d1" style="background-image:url('img/41.jpg');"></div>
+          <div class="d2" style="background-image:url('img/41.jpg');"></div>
+          <div class="d3" style="background-image:url('img/41.jpg');"></div>
+          <div class="d4" style="background-image:url('img/41.jpg');"></div>
+          <div class="d5" style="background-image:url('img/41.jpg');"></div>
+    </div>
+</section>
+
+<section class="container-fluid project-title-area ">
+  <h1>Ongoing Real Estate Projects</h1>
+</section>
+<section class="container-fluid project-slider">
+  <ul id="autoWidth" class="cs-hidden">
+   <a href="single_project.html">
+    <li class="item-a">
+      <div class="box">
+        <img src="img/build1.png" alt="">
+        <p class="marvel">RANKS FC Memory 71</p>
       </div>
-  </section>
+    </li>
+   </a>
+   <a href="single_project.html">
+    <li class="item-a">
+      <div class="box">
+        <img src="img/build2.png" alt="">
+        <p class="marvel">Ranks FC White Oak</p>
+    </div>
+    </li>
+  </a>
+    <li class="item-a">
+      <div class="box">
+        <img src="img/build3.png" alt="">
+        <p class="marvel">RANKS FC Memory 71</p>
+    </div>
+    </li>
+    <li class="item-a">
+      <div class="box">
+        <img src="img/build4.png" alt="">
+        <p class="marvel">RANKS FC Memory 71</p>
+    </div>
+    </li>
+    <li class="item-a">
+      <div class="box">
+        <img src="img/build5.png" alt="">
+        <p class="marvel">RANKS FC Memory 71</p>
+    </div>
+    </li>
+    <li class="item-a">
+      <div class="box">
+        <img src="img/build1.png" alt="">
+        <p class="marvel">RANKS FC Memory 71</p>
+    </div>
+    </li>
+    <li class="item-a">
+      <div class="box">
+        <img src="img/build2.png" alt="">
+        <p class="marvel">RANKS FC Memory 71</p>
+    </div>
+    </li>
+  </ul>
+</section>
+
+<section class="container-fluid project-title-area ">
+  <h1>Upcoming Real Estate Projects</h1>
+</section>
+<section class="container-fluid project-slider">
+  <ul id="autoWidth2" class="cs-hidden">
+    <li class="item-a">
+      <div class="box">
+        <img src="img/build1.png" alt="">
+        <p class="marvel">RANKS FC Memory 71</p>
+    </div>
+    </li>
+    <li class="item-a">
+      <div class="box">
+        <img src="img/build2.png" alt="">
+        <p class="marvel">Ranks FC White Oak</p>
+    </div>
+    </li>
+    <li class="item-a">
+      <div class="box">
+        <img src="img/build3.png" alt="">
+        <p class="marvel">RANKS FC Memory 71</p>
+    </div>
+    </li>
+    <li class="item-a">
+      <div class="box">
+        <img src="img/build4.png" alt="">
+        <p class="marvel">RANKS FC Memory 71</p>
+    </div>
+    </li>
+    <li class="item-a">
+      <div class="box">
+        <img src="img/build5.png" alt="">
+        <p class="marvel">RANKS FC Memory 71</p>
+    </div>
+    </li>
+    <li class="item-a">
+      <div class="box">
+        <img src="img/build1.png" alt="">
+        <p class="marvel">RANKS FC Memory 71</p>
+    </div>
+    </li>
+    <li class="item-a">
+      <div class="box">
+        <img src="img/build2.png" alt="">
+        <p class="marvel">RANKS FC Memory 71</p>
+    </div>
+    </li>
+  </ul>
+</section>
 
    <section class="footer ">
     <div class="container ">
@@ -142,6 +248,7 @@
 <script src="themes/cms/assets/js/jQuery.scrollSpeed.js" type="14653133474c7b92af210ab0-text/javascript"></script>
 <script src="themes/cms/assets/js/jquery.blast.min.js" type="14653133474c7b92af210ab0-text/javascript"></script>
 <script src="themes/cms/assets/js/custom.js" type="14653133474c7b92af210ab0-text/javascript"></script>
+<script src="js/lightslider.js"></script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -158,6 +265,25 @@
   $(window).scroll(function(){
     var scrollTop=$(this).scrollTop();
     $('.right-big-bg').css('center',-(scrollTop - 350) + 'px');
+  });
+
+  $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
+  $(document).ready(function() {
+    $('#autoWidth2').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
   });
 
 </script>
