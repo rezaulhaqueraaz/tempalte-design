@@ -50,7 +50,7 @@ header.sticky{
     display: none;
 }
 .main-menu{
-    display: none;
+    display: block;
 }
 .right-big-area{
     position: relative;

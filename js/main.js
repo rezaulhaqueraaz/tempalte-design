@@ -63,4 +63,8 @@
 			$("#header-sticky").addClass("sticky");
 		}
 	});
+
+
+	// grasp
+	grasp.to(".word-title",{duration:2,x:300});
 })(jQuery);

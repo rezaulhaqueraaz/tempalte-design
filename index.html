@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="fonts/mfont.css">
 <link rel="stylesheet" href="css/project.css">
 <link rel="stylesheet" href="css/mistCarousel.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -42,10 +43,9 @@
           <div class="ranks-main-menu text-right">
             <nav>
               <ul>
-                <li class="active"><a href="">Home</a></li>
-                <li><a href="">About</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Project</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="single_project.html">Single</a></li>
               </ul>
             </nav>
           </div>
@@ -104,9 +104,13 @@
   <section class="word-architecture" id="go-architecture">
     <div class="container-fluid">
    <div class="row devide">
-   <div class="col-md-9 col-sm-9 bg-box right-to-left jumbotron" style="background:url('img/scal3.jpg') repeat center; background-size: cover;background-attachment: fixed;" data-paroller-factor="0.5"></div>
+
+   <div class="col-md-9 col-sm-9 bg-box right-to-left jumbotron " style=" position: relative; background:url('img/scal3.jpg') repeat center; background-size: cover;background-attachment: fixed;" data-paroller-factor="0.5">
+   
+  </div>
+  
    <div class="col-md-3 col-sm-3 word-title rellax" data-rellax-speed="2">
-    <h1 style="color: #000;">RENAISSANCE</h1>
+    <h1 style="color: #000;">dsfdsf</h1>
    </div>
    </div>
    </div>
@@ -199,6 +203,10 @@
 <script src="themes/cms/assets/js/bootstrap.min.js" type="14653133474c7b92af210ab0-text/javascript"></script>
 <script src="themes/cms/assets/js/pace.min.js" type="14653133474c7b92af210ab0-text/javascript"></script>
 <script src="themes/cms/assets/js/rellax.min.js" type="14653133474c7b92af210ab0-text/javascript"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
 <script src="themes/cms/assets/js/jquery.paroller.min.js" type="14653133474c7b92af210ab0-text/javascript"></script>
 <script src="themes/cms/assets/js/easing.js" type="14653133474c7b92af210ab0-text/javascript"></script>
 <script src="themes/cms/assets/js/slick.min.js" type="14653133474c7b92af210ab0-text/javascript"></script>
@@ -213,7 +221,7 @@
   _gaq.push(['_setAccount', 'UA-36251023-1']);
   _gaq.push(['_setDomainName', 'jqueryscript.net']);
   _gaq.push(['_trackPageview']);
-
+  AOS.init();
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
